@@ -1,0 +1,18 @@
+{
+"name": "lizetheb1920/high-chart",
+    "description": "This is a package for generating a Highchart JSON config version 4.1.5. ",
+    "keywords": ["highChart", "HighCharts"],
+	"homepage": "http://www.highcharts.com",
+	"version": "4.1.5",  
+    "require": {
+        "php": ">=5.5"        
+    },
+    "autoload": {
+    	"psr-0": {
+            "lizetheb1920\\high-chart": ["api/","examples/","exporting-server/","gfx/","graphics/","js/"]
+        }
+    	
+    }
+}
+
+
